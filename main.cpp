@@ -33,8 +33,3 @@ while(c<15)
 sum=sum+c;
 printf("%i=%i", c, sum);
 }
-
-
-
-
-
