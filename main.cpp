@@ -5,6 +5,13 @@ main()
 int i=0;
 int sum=0;
 
+while(i<9)
+{
+	printf("Hello\n");
+	i++;
+}
+
+i=0;
 
 while (i<16)
 {
@@ -14,20 +21,13 @@ while (i<16)
 
 i=0;
 
-while(i<9)
-{
-	printf("Hello\n");
+while(i<15){
+	if (i%2==1)
+	printf("%i ", i);
 	i++;
 }
 
-i=0;
-
-while(i<15){
-	printf("%i ", i);
-	i=i+2;
-}
-
-i=0;
+i=5;
 
 while(i<15)
 {
