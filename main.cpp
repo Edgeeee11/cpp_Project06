@@ -1,35 +1,40 @@
 #include <stdio.h>
 
-
 main()
 {
-int i=1;
-int a=0;
-int b=1;
+int i=0;
 int sum=0;
-int c=5;
 
-while(i<10)
+
+while (i<16)
+{
+	printf("%i\n", i);
+	i++;
+}
+
+i=0;
+
+while(i<9)
 {
 	printf("Hello\n");
-	i=i+1;
+	i++;
 }
-while(a<15)
+
+i=0;
+
+while(i<15){
+	printf("%i ", i);
+	i=i+2;
+}
+
+i=0;
+
+while(i<15)
 {
-	printf("%i\n", a);
-	a=a+1;
-	
+	sum=sum+i;
+	printf("%i+",i);
+	i++;
 }
-while(b<15){
-	printf("%i ", b);
-	b=b+2;
-}
-while(c<15)
-{
-	sum=sum+c;
-	printf("%i+",c);
-	c=c+1;
-}
-sum=sum+c;
-printf("%i=%i", c, sum);
+sum=sum+i;
+printf("%i=%i", i, sum);
 }
